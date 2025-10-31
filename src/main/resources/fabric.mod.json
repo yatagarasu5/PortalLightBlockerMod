@@ -3,15 +3,15 @@
 	"id": "portallightblocker",
 	"version": "${version}",
 	"name": "PortalLightBlocker",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Blocks Portal Light",
 	"authors": [
-		"Me!"
+		"Renoceros"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Renoceros/PortalLightBlockerMod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/portallightblocker/icon.png",
 	"environment": "*",
 	"entrypoints": {
