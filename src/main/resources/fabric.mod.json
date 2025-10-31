@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.portallightblocker.PortalLightBlockerDataGenerator"
+		],
+		"client":[
+			"com.portallightblocker.PortalLightBlockerClient"
 		]
 	},
 	"mixins": [
