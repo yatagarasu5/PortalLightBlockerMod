@@ -1,3 +1,90 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# === Fabric & Minecraft ===
+# The most important folder to ignore. Contains test worlds, logs, and configs.
+/run/
+
+# Fabric Loom cache
+.caffeine/
+
+# === Gradle (Build System for Fabric) ===
+# Gradle build outputs
+/build/
+/out/
+
+# Gradle cache
+.gradle/
+
+# Ignore the Gradle wrapper binary (similar to your .mvn/wrapper/maven-wrapper.jar)
+gradle/wrapper/gradle-wrapper.jar
+
+# Gradle daemon logs
+.gradle-daemon.log
+.gradle-daemon.out.log
+
+# === IDE - IntelliJ IDEA (Very common for modding) ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === IDE - Eclipse (From your file) ===
+.project
+.classpath
+.settings/
+
+# === IDE - Visual Studio Code ===
+.vscode/
+
+# === Logs & System Files ===
+# Log files
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# === Maven (Your original entries, in case you use it for other modules) ===
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -7,11 +94,4 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
-
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
