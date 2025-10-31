@@ -3,7 +3,7 @@
   "package": "com.portallightblocker.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "NetherPortalBlockMixin"
+    "BlocksMixin"
   ],
   "injectors": {
     "defaultRequire": 1
