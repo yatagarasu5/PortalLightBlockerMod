@@ -18,7 +18,7 @@ public class BlocksMixin {
         at = @At(
             value = "INVOKE",
             target = "Lnet/minecraft/block/AbstractBlock$Settings;luminance(Ljava/util/function/ToIntFunction;)Lnet/minecraft/block/AbstractBlock$Settings;",
-            ordinal = 13 // <-- 13 instances of luminance()before NETHER_PORTAL in net.minecraft.block.Blocks
+            ordinal = 14// <-- 13 instances of luminance()before NETHER_PORTAL in net.minecraft.block.Blocks
         )
     )
     private static java.util.function.ToIntFunction<BlockState> portallightblocker$modifyNetherPortalLuminance(
